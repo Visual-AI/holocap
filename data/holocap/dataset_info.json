@@ -1,0 +1,10 @@
+{
+  "holocap_train": {
+    "file_name": "holocap_train.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "point_clouds": "point_clouds"
+    }
+  }
+}

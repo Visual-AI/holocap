@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments and local configuration
+.env
+.venv/
+venv/
+env/
+poetry.toml
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and training intermediates
+*.log
+wandb/
+runs/
+saves/
+ckpts/
+results*/
+
+# Runtime point-cloud links and dataset caches
+data/holocap/*_pcds
+data/holocap/cache-*.arrow
+data/holocap/*.lock
+
+# HoloScan files downloaded from Hugging Face
+.cache/huggingface/
+data/holocap/holocap_train.json
+data/annotations/val.json
+data/annotations/test.json
+data_preparation/metadata/*.pkl
+
+# Temporary files
+*.tmp
+*.swp
+*~
